@@ -7,8 +7,8 @@ sidebar:
 
 Every combat robot must have a way to **completely remove power** from the
 outside, without tools, quickly. This is a hard rule at every event — see
-[Required safety systems](/rules/safety-systems/) and
-[SPARC construction specs](/rules/sparc-construction/).
+Required safety systems and
+SPARC construction specs.
 
 ## Removable link (the standard solution)
 
@@ -50,4 +50,4 @@ Basically: link out → nothing on the robot can move or power up.
 
 The removable link is separate from a **weapon immobilization** device (a
 physical pin or clamp that stops the weapon spinning while you handle the robot
-in the pit). You need both — see [Tech inspection checklist](/rules/tech-inspection/).
+in the pit). You need both — see Tech inspection checklist.

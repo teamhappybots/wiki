@@ -46,4 +46,4 @@ damaged or abused cell can vent flammable gas and ignite.
 - Have a way to move a venting pack outside; a metal container with a lid helps.
 
 Events require sane battery practice and will fail robots with exposed or
-damaged packs at [tech inspection](/rules/tech-inspection/).
+damaged packs at tech inspection.

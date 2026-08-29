@@ -7,7 +7,7 @@ sidebar:
 
 A control bot has **no active weapon**. It wins by getting under opponents,
 controlling their movement, and exposing them to arena hazards — and by
-surviving to a judges' decision on [control and aggression](/rules/tech-inspection/).
+surviving to a judges' decision on control and aggression.
 
 Even weapon robots need good wedge geometry on the front, so this page applies
 broadly.
@@ -49,5 +49,5 @@ The wedge tip and hardened skids define ride height. Set it so:
 
 Spring steel, hardened tool steel, or hardened stainless for the working edge;
 UHMW or HDPE for low-friction surfaces; titanium where mass matters more than
-edge retention. See [Material properties](/structure/material-properties/) and
-[Armor design](/structure/armor/).
+edge retention. See Material properties and
+Armor design.

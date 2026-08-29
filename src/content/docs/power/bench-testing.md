@@ -45,4 +45,4 @@ whole rotor letting go.
    run and re-torque everything.
 
 Events provide a test box in the pits; the same discipline applies there. See
-[Tech inspection checklist](/rules/tech-inspection/).
+Tech inspection checklist.

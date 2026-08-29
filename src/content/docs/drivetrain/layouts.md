@@ -33,13 +33,13 @@ melty-capable firmware, careful CG, and driver skill. Not a first build.
 
 Legged-looking drives that are mechanically wheeled (cams lifting feet) to
 qualify for walker weight bonuses under some rulesets. Complex; check your
-event's [walker clause](/rules/weight-classes/) before committing.
+event's walker clause before committing.
 
 ## Invertible driving
 
 Insect robots get flipped constantly. Design to drive **upside down**:
 
 - Wheels tall enough to contact the floor in both orientations, or
-- A weapon/body shape that self-rights ([Self-righting](/structure/self-righting/)).
+- A weapon/body shape that self-rights (Self-righting).
 - The transmitter should have an **invert switch** that flips drive (and
   sometimes steering) so "forward" stays forward when inverted.

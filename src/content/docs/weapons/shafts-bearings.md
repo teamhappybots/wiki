@@ -49,4 +49,4 @@ arrangement for beetleweight and up.
 - Keep the rotor's plane of rotation close to the bearing supports — long
   overhangs multiply bending stress.
 - Isolate delicate electronics from the bearing-block structure with
-  [shock mounting](/structure/frame-construction/#shock-mounting) where practical.
+  shock mounting where practical.

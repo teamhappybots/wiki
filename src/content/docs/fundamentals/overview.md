@@ -38,7 +38,7 @@ A workable sequence for a new design:
 6. **Structure.** Package everything, then design the frame and armor around
    the load paths from weapon impacts.
 7. **Compliance pass.** Check the design against
-   [SPARC construction specs](/rules/sparc-construction/) and your event's rules
+   SPARC construction specs and your event's rules
    *before* cutting material.
 
 ## Units

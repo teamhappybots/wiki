@@ -50,4 +50,4 @@ On **loss of signal**, every output must go to a safe state:
 4. Drive must stop and weapon must stop within a fraction of a second.
 5. Repeat after any config change.
 
-This exact test is performed at [tech inspection](/rules/tech-inspection/).
+This exact test is performed at tech inspection.

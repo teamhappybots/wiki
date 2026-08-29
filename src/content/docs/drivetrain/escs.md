@@ -42,5 +42,5 @@ Undersized ESCs overheat and cut out mid-match.
 Every drive ESC path must bring the motors to a **safe stop on radio loss**.
 Verify it on the bench: power the robot, arm it, then switch the transmitter
 off — drive must stop within a fraction of a second. This is checked at
-[tech inspection](/rules/tech-inspection/). See
+tech inspection. See
 [Radio systems &amp; failsafe](/power/radio/).

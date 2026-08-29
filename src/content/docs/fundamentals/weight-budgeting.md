@@ -45,13 +45,13 @@ fights before the thin armor is tested.
 4. Keep a **contingency row** of 5% of the class limit. If you spend it before
    the robot is done, something has to be redesigned, not shaved.
 5. Re-weigh the assembled robot on the same scale you will see at
-   [tech inspection](/rules/tech-inspection/). Build in 5–15&nbsp;g of margin
+   tech inspection. Build in 5–15&nbsp;g of margin
    for paint, tape, and scale variance.
 
 ## Where the grams hide
 
 - **Fasteners.** A beetleweight can carry 40–80 g of screws. Use the shortest
-  screw that gives full [thread engagement](/structure/fasteners/); drop from
+  screw that gives full thread engagement; drop from
   steel to aluminum or titanium only where the load allows.
 - **Wire.** 12–14 AWG silicone wire is heavy. Size it to current
   ([Wiring &amp; current](/power/wiring/)), keep runs short.
