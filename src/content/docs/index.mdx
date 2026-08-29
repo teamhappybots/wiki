@@ -1,0 +1,33 @@
+---
+title: Combat Robots Wiki
+description: An open, community-maintained knowledge base for combat robotics.
+template: splash
+hero:
+  tagline: An open, community-maintained knowledge base for building and competing with combat robots.
+  actions:
+    - text: Start reading
+      link: /start-here/introduction/
+      icon: right-arrow
+    - text: Contribute
+      link: /start-here/contributing/
+      icon: pencil
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<Card title="Building" icon="rocket">
+		Weight classes, drive systems, weapons, armor, electronics, and materials.
+	</Card>
+	<Card title="Competing" icon="approve-check">
+		Finding events, safety inspection, the pit, match strategy, and etiquette.
+	</Card>
+	<Card title="Reference" icon="open-book">
+		Rulesets, glossary, suppliers, and a reading list.
+	</Card>
+	<Card title="AI-friendly" icon="seti:default">
+		The whole wiki is available to LLMs at [`/llms.txt`](/llms.txt) and
+		[`/llms-full.txt`](/llms-full.txt).
+	</Card>
+</CardGrid>
