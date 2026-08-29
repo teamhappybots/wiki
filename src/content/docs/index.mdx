@@ -1,33 +1,62 @@
 ---
 title: Combat Robots Wiki
-description: An open, community-maintained knowledge base for combat robotics.
+description: A technical reference wiki for combat robot builders.
 template: splash
 hero:
-  tagline: An open, community-maintained knowledge base for building and competing with combat robots.
+  tagline: A technical reference for combat robot builders — the engineering of drivetrains, weapons, power, electronics, and structure, insect classes first.
   actions:
-    - text: Start reading
-      link: /start-here/introduction/
+    - text: Fundamentals
+      link: /fundamentals/overview/
       icon: right-arrow
-    - text: Contribute
-      link: /start-here/contributing/
-      icon: pencil
+    - text: Glossary
+      link: /reference/glossary/
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid>
-	<Card title="Building" icon="rocket">
-		Weight classes, drive systems, weapons, armor, electronics, and materials.
+	<Card title="Fundamentals" icon="approve-check">
+		The physics you design against: [weight budgeting](/fundamentals/weight-budgeting/),
+		[power &amp; gearing](/fundamentals/power-torque-gearing/),
+		[traction](/fundamentals/traction/), and
+		[weapon energy &amp; gyro](/fundamentals/weapon-energy/).
 	</Card>
-	<Card title="Competing" icon="approve-check">
-		Finding events, safety inspection, the pit, match strategy, and etiquette.
+	<Card title="Drivetrain" icon="rocket">
+		[Motors](/drivetrain/motors/), [gearing &amp; wheels](/drivetrain/gearing-wheels/),
+		[layouts](/drivetrain/layouts/), and [drive ESCs](/drivetrain/escs/).
 	</Card>
-	<Card title="Reference" icon="open-book">
-		Rulesets, glossary, suppliers, and a reading list.
+	<Card title="Weapons" icon="random">
+		[Spinner types](/weapons/spinner-types/), [geometry &amp; bite](/weapons/geometry-bite/),
+		[motors &amp; ESCs](/weapons/motors-escs/), [shafts &amp; bearings](/weapons/shafts-bearings/),
+		[flippers](/weapons/flippers-lifters/).
 	</Card>
-	<Card title="AI-friendly" icon="seti:default">
-		The whole wiki is available to LLMs at [`/llms.txt`](/llms.txt) and
-		[`/llms-full.txt`](/llms-full.txt).
+	<Card title="Power &amp; Electronics" icon="setting">
+		[LiPo sizing](/power/lipo-batteries/), [wiring &amp; current](/power/wiring/),
+		[connectors](/power/connectors/), [removable links](/power/switches-links/),
+		[radio &amp; failsafe](/power/radio/), [ESC firmware](/power/esc-firmware/).
+	</Card>
+	<Card title="Structure &amp; Materials" icon="document">
+		[Frame construction](/structure/frame-construction/),
+		[material properties](/structure/material-properties/),
+		[3D printing](/structure/3d-printing/), [fasteners](/structure/fasteners/),
+		[armor](/structure/armor/), [self-righting](/structure/self-righting/).
+	</Card>
+	<Card title="Rules &amp; Compliance" icon="warning">
+		[SPARC construction specs](/rules/sparc-construction/),
+		[weight classes](/rules/weight-classes/),
+		[required safety systems](/rules/safety-systems/),
+		[prohibited systems](/rules/prohibited/).
 	</Card>
 </CardGrid>
+
+:::note[Scope]
+Written for **builders**, insect classes first — 150&nbsp;g fairyweight through
+3&nbsp;lb beetleweight. Numbers, materials, and examples target those classes.
+Heavier classes share the principles; the magnitudes change. Rules content
+tracks the **SPARC** ruleset (see [Rules &amp; Compliance](/rules/sparc-construction/)).
+:::
+
+The full wiki is available to language models at [`/llms.txt`](/llms.txt) and
+[`/llms-full.txt`](/llms-full.txt).
