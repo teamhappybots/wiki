@@ -24,8 +24,7 @@ export default defineConfig({
 				{
 					icon: 'github',
 					label: 'GitHub',
-					// TODO: point this at the wiki's own repo
-					href: 'https://github.com/withastro/starlight',
+					href: 'https://github.com/teamhappybots/wiki',
 				},
 			],
 			sidebar: [
