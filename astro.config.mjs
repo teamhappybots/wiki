@@ -5,9 +5,9 @@ import starlightLlmsTxt from 'starlight-llms-txt';
 
 // https://astro.build/config
 export default defineConfig({
-	// Update this to your real domain once deployed. Needed for correct
+	// Update this to your custom domain once you add one. Needed for correct
 	// absolute URLs in sitemap, llms.txt, and Open Graph tags.
-	site: 'https://combatrobots.wiki',
+	site: 'https://combatrobots-wiki.vercel.app',
 	integrations: [
 		starlight({
 			title: 'Combat Robots Wiki',
