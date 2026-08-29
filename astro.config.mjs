@@ -5,9 +5,9 @@ import starlightLlmsTxt from 'starlight-llms-txt';
 
 // https://astro.build/config
 export default defineConfig({
-	// Update this to your custom domain once you add one. Needed for correct
-	// absolute URLs in sitemap, llms.txt, and Open Graph tags.
-	site: 'https://combatrobots-wiki.vercel.app',
+	// Custom domain (configured in Vercel + Namecheap DNS). Used for absolute
+	// URLs in the sitemap, llms.txt, and Open Graph tags.
+	site: 'https://wiki.combatrobots.org',
 	integrations: [
 		starlight({
 			title: 'Combat Robots Wiki',
