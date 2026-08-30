@@ -72,6 +72,12 @@ export default defineConfig({
 						{ label: 'Bench testing & the test box', slug: 'power/bench-testing' },
 					],
 				},
+				{
+					label: 'Reference',
+					items: [
+						{ label: 'Calculators & tools', slug: 'reference/tools' },
+					],
+				},
 				// TODO: re-enable these sections as their content pages are added.
 				// {
 				// 	label: 'Structure & Materials',
