@@ -28,7 +28,7 @@ power.
   precision. Sensorless works but cogs at a crawl.
 - Configure via [BLHeli/AM32 firmware](/power/esc-firmware/): 3D mode on,
   low-timing for drive, brake on stop, motor direction, and a defined
-  signal-loss behavior.
+  signal-loss behavior.[^am32][^blheli]
 
 ## Sizing current
 
@@ -41,6 +41,12 @@ Undersized ESCs overheat and cut out mid-match.
 
 Every drive ESC path must bring the motors to a **safe stop on radio loss**.
 Verify it on the bench: power the robot, arm it, then switch the transmitter
-off — drive must stop within a fraction of a second. This is checked at
-tech inspection. See
+off — drive must stop within a fraction of a second. This is a ruleset
+requirement and is checked at tech inspection.[^sparc] See
 [Radio systems &amp; failsafe](/power/radio/).
+
+## References
+
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/), v1.4, 2023 — failsafe requirements for drive and weapon systems.
+[^am32]: [AM32 ESC firmware](https://github.com/am32-firmware/AM32) and the [AM32 wiki](https://github.com/am32-firmware/am32-wiki).
+[^blheli]: [BLHeli / BLHeli_S firmware](https://github.com/bitdump/BLHeli); browser config via [ESC-Configurator](https://esc-configurator.com/).

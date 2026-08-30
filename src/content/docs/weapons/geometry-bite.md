@@ -21,7 +21,7 @@ bite ≈ (closing speed × 60) / (weapon rpm × n_teeth)
   [shaft](/weapons/shafts-bearings/).
 
 Most beetleweight weapons target **low-to-moderate bite** — 1–3 impact points,
-high rpm — so the weapon stays near speed and re-arms fast.
+high rpm — so the weapon stays near speed and re-arms fast.[^riobotz]
 
 ## Tooth / impact point count
 
@@ -59,3 +59,7 @@ and recovers between hits. If spin-up is sluggish:
 drum, moderate diameter, moderate bite, driven by a single well-matched
 brushless outrunner. It self-rights, it's forgiving of driving, and the
 geometry is easy to get right.
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — the "bite" model, tooth-count trade-offs, and matching rotor inertia to the motor.

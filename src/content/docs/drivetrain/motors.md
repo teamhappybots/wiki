@@ -17,7 +17,7 @@ sidebar:
 
 For a **first beetleweight**, brushed gearmotors (e.g. 16–25 mm gearmotors, or
 purpose-made combat drive units) give predictable driving and forgiving
-electronics. Move to brushless when you want more speed/push in the same mass.
+electronics. Move to brushless when you want more speed/push in the same mass.[^riobotz]
 
 ## Common insect-class drive motors
 
@@ -40,6 +40,8 @@ Work backwards from [Power, torque &amp; gearing](/fundamentals/power-torque-gea
 4. Check stall torque at the wheel exceeds the [traction limit](/fundamentals/traction/)
    so the tires break loose before the motor stalls in a pushing match.
 
+Team Run Amok's calculator models steps 1–4 for common combat motors.[^runamok]
+
 ## Thermal and duty
 
 Drive motors in a pushing match run near stall — high current, low rpm, poor
@@ -53,3 +55,8 @@ windings are common failure modes.
 4WD (four motors) keeps the robot mobile after losing a motor or wheel to a
 hit, and doubles pushing traction. The cost is mass and two more
 [ESC channels](/drivetrain/escs/). Most competitive beetles are 4WD.
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — DC motor selection, gearing, and thermal limits.
+[^runamok]: [Team Run Amok](https://runamok.tech/) — [Tentacle Torque & Amp-Hour Calculator](https://runamok.tech/squid/newtorquecalc.htm) and the "Ask Aaron" [motor archives](https://runamok.tech/AskAaron/motors.html).

@@ -17,7 +17,7 @@ A brushed or brushless DC motor is characterized by:
 - **Stall torque** at a given voltage — torque at zero rpm, drawing stall current.
 - **Kt** (torque constant, N·m/A) = `9.549 / Kv`. Torque ≈ `Kt × (I − I_0)`.
 
-Torque and speed trade linearly between no-load and stall.
+Torque and speed trade linearly between no-load and stall.[^riobotz]
 
 ## From motor to wheel
 
@@ -28,7 +28,7 @@ robot speed     = wheel rpm × π × wheel_diameter / 60
 tractive force  = wheel torque / wheel_radius        (per driven wheel)
 ```
 
-Spur/planetary gearboxes: assume **85–90%** efficiency per stage. Belt: ~95%.
+Spur/planetary gearboxes: assume **85–90%** efficiency per stage. Belt: ~95%.[^riobotz]
 
 ## Target numbers (beetleweight)
 
@@ -53,7 +53,8 @@ match") without the motors overheating or the ESC cutting out.
    loose — it will overheat in a pushing match. Gear shorter (higher ratio).
 
 A balanced beetle drive can push roughly **0.7–1.2× its own weight** before the
-tires slip.
+tires slip. Team Run Amok's drivetrain calculator automates this check and the
+gear-ratio selection.[^runamok]
 
 ## Current draw
 
@@ -61,3 +62,8 @@ Peak drive current ≈ `n_motors × stall_current × duty`. Full-throttle direct
 changes approach stall current briefly. Size [wiring](/power/wiring/),
 [ESCs](/drivetrain/escs/), and [battery C-rating](/power/lipo-batteries/) for
 that peak, not the average.
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — ch. on motors and drivetrain design.
+[^runamok]: [Team Run Amok](https://runamok.tech/) — the [Tentacle Torque & Amp-Hour Calculator](https://runamok.tech/squid/newtorquecalc.htm) and the "Ask Aaron" [drivetrain design archives](https://runamok.tech/AskAaron/optimum.html).

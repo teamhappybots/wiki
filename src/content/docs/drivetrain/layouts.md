@@ -33,7 +33,7 @@ melty-capable firmware, careful CG, and driver skill. Not a first build.
 
 Legged-looking drives that are mechanically wheeled (cams lifting feet) to
 qualify for walker weight bonuses under some rulesets. Complex; check your
-event's walker clause before committing.
+event's walker clause before committing.[^sparc]
 
 ## Invertible driving
 
@@ -43,3 +43,7 @@ Insect robots get flipped constantly. Design to drive **upside down**:
 - A weapon/body shape that self-rights (Self-righting).
 - The transmitter should have an **invert switch** that flips drive (and
   sometimes steering) so "forward" stays forward when inverted.
+
+## References
+
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) and [Tournament Rules](https://sparc.tools/), v1.4, 2023 — walker weight bonus and its qualifying criteria. Many events modify or drop this clause; check the ruleset you are entering.

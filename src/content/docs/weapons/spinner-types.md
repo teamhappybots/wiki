@@ -7,7 +7,7 @@ sidebar:
 
 Kinetic weapons are categorized by **spin axis orientation** and **rotor shape**.
 See [Weapon energy &amp; gyro effects](/fundamentals/weapon-energy/) for the
-underlying physics.
+underlying physics.[^riobotz]
 
 ## Axis orientation
 
@@ -48,3 +48,7 @@ underlying physics.
 
 See [Which spinner suits a first build](/weapons/geometry-bite/#first-weapon)
 and [Weapon motors &amp; ESCs](/weapons/motors-escs/) to spec the drive.
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — weapon taxonomy and the trade-offs between rotor shapes.

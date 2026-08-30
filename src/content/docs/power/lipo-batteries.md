@@ -32,7 +32,7 @@ more than peak current; LiFePO₄ is rare in insect classes.
    rating sags hard and heats up.
 4. **Capacity for endurance:** estimate average current over a 2–3 minute match
    (drive duty + weapon duty) and size capacity so you use **≤ 70–80%** of it.
-   Deep-cycling every match kills packs fast.
+   Deep-cycling every match kills packs fast.[^runamok][^batteryuniversity]
 5. **Mass:** LiPo energy density is ~150–180 Wh/kg. Beetleweight packs are
    commonly **8–12%** of robot mass — see [Weight budgeting](/fundamentals/weight-budgeting/).
 
@@ -48,3 +48,8 @@ current), shorter/thicker [wiring](/power/wiring/), better [connectors](/power/c
 Retire a pack when it puffs, a cell drifts >0.05 V from its siblings at rest,
 internal resistance climbs, or it can't hold 4.2 V. See
 [Battery safety &amp; charging](/power/battery-safety/).
+
+## References
+
+[^runamok]: [Team Run Amok](https://runamok.tech/) — the [Tentacle Torque & Amp-Hour Calculator](https://runamok.tech/squid/newtorquecalc.htm) estimates match current draw and required pack capacity.
+[^batteryuniversity]: Battery University (Cadex), [BU-808: How to Prolong Lithium-Based Batteries](https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries) — charge/discharge limits, depth-of-discharge, and cycle life.

@@ -37,11 +37,15 @@ A workable sequence for a new design:
    full match with margin. See [LiPo batteries](/power/lipo-batteries/).
 6. **Structure.** Package everything, then design the frame and armor around
    the load paths from weapon impacts.
-7. **Compliance pass.** Check the design against
-   SPARC construction specs and your event's rules
-   *before* cutting material.
+7. **Compliance pass.** Check the design against the
+   [SPARC construction specifications](https://sparc.tools/) and your event's
+   rules *before* cutting material.[^sparc]
 
 ## Units
 
 SI throughout, with common shop units in parentheses. Energy in joules,
 mass in grams/kilograms, tip speed in m/s.
+
+## References
+
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) (Standardized Practices for the Advancement of Robot Combat), v1.4, 2023 — the widely adopted open ruleset in North America. Your event adopts a specific revision; follow that one.

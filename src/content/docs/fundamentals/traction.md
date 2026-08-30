@@ -26,7 +26,7 @@ F_traction = μ × N
 | Foam / sponge (lightweight, low grip) | 0.4–0.7 |
 
 Arena floors vary — bare steel, painted steel, textured, or coated. Soft
-silicone wheels grip best but wear and tear off in hits.
+silicone wheels grip best but wear and tear off in hits.[^riobotz]
 
 ## Getting normal force onto the driven wheels
 
@@ -53,3 +53,7 @@ A wedge that gets under the opponent transfers *their* weight onto *your*
 driven wheels, raising `N` and your effective pushing force while removing it
 from theirs. This is why wedge geometry matters even on weapon robots — see
 [Control bots &amp; wedges](/weapons/control-wedges/).
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — traction, friction coefficients, and weight-transfer analysis.

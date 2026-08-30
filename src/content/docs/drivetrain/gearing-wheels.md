@@ -15,7 +15,8 @@ torque. See the formulas in [Power, torque &amp; gearing](/fundamentals/power-to
 - Aim for the tires to break traction near full motor torque.
 
 Beetleweight drive ratios commonly fall between **20:1 and 60:1** depending on
-motor Kv and battery voltage.
+motor Kv and battery voltage. See Team Run Amok's guide to optimum gear-ratio
+selection.[^runamok]
 
 ## Wheel diameter
 
@@ -50,4 +51,9 @@ often accept harder, tougher wheels.
 - **Keyed or bolted hub** — strongest.
 - Support the axle on **two bearings** where possible; a single-shear motor
   output shaft bends when the wheel is hit from the side.
-- Protect the axle from side loads with a stub or armored pocket.
+- Protect the axle from side loads with a stub or armored pocket.[^riobotz]
+
+## References
+
+[^runamok]: [Team Run Amok](https://runamok.tech/) — ["Optimum Gear Ratio Selection"](https://runamok.tech/AskAaron/optimum.html) and the [Tentacle drivetrain calculator](https://runamok.tech/squid/newtorquecalc.htm).
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — wheels, hubs, and axle support.

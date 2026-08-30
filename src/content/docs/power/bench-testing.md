@@ -6,7 +6,7 @@ sidebar:
 ---
 
 Never spin a weapon in open air. Every weapon test happens inside a containment
-box.
+box.[^nhrl]
 
 ## First power-up sequence
 
@@ -44,5 +44,9 @@ whole rotor letting go.
 6. Inspect the rotor, shaft, bearings, and fasteners after the first full-speed
    run and re-torque everything.
 
-Events provide a test box in the pits; the same discipline applies there. See
-Tech inspection checklist.
+Events provide a test box in the pits; the same discipline applies there.[^sparc]
+
+## References
+
+[^nhrl]: [NHRL Wiki](https://wiki.nhrl.io/) (National Havoc Robot League) — pit safety, the test-box requirement, and weapon-arming procedure.
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) and Tournament Rules, v1.4, 2023 — safe activation/deactivation and pit conduct.

@@ -19,8 +19,8 @@ wiring is short, so ampacity (heating) usually governs, not voltage drop.
 | 10 | ~65 A | High-power weapon feed, heavy classes |
 
 These are guidance figures — derate for bundling, high ambient temperature, and
-long runs. Weapon spin-up current is brief, so the weapon feed can be sized
-closer to sustained current than to absolute peak, within reason.
+long runs.[^powerwerx] Weapon spin-up current is brief, so the weapon feed can be
+sized closer to sustained current than to absolute peak, within reason.
 
 ## Use silicone-insulated, fine-strand wire
 
@@ -44,3 +44,7 @@ heat and abrasion far better than PVC. It's the combat standard.
 - Leave **service loops** so a hit that shifts a component doesn't rip a wire
   out.
 - Heat-shrink all solder joints; double-shrink high-current ones.
+
+## References
+
+[^powerwerx]: [Powerwerx wire gauge / AWG reference table](https://powerwerx.com/help/wire-gauge-awg-reference-table) and [recommended wire-gauge calculator](https://powerwerx.com/wire-gauge-selection-chart-calculator). Chassis-wiring ampacity assumes short runs in open air; silicone insulation's higher temperature rating (150&nbsp;°C) allows more current per gauge than PVC.

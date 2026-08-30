@@ -49,5 +49,8 @@ The wedge tip and hardened skids define ride height. Set it so:
 
 Spring steel, hardened tool steel, or hardened stainless for the working edge;
 UHMW or HDPE for low-friction surfaces; titanium where mass matters more than
-edge retention. See Material properties and
-Armor design.
+edge retention.[^riobotz]
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — wedge geometry, ground clearance, and material selection for working edges.

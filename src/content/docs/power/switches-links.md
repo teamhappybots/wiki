@@ -6,9 +6,7 @@ sidebar:
 ---
 
 Every combat robot must have a way to **completely remove power** from the
-outside, without tools, quickly. This is a hard rule at every event — see
-Required safety systems and
-SPARC construction specs.
+outside, without tools, quickly. This is a hard rule at every event.[^sparc]
 
 ## Removable link (the standard solution)
 
@@ -28,7 +26,7 @@ A plug that completes the main power circuit and is pulled out to disconnect.
 Purpose-built combat power switches (screw-actuated or slide) are allowed by
 most rulesets as long as they break the **full current** and their state is
 obvious. A switch that only signals a BEC or ESC enable line is **not**
-sufficient — the main power must be broken.
+sufficient — the main power must be broken.[^sparc]
 
 ## What it must isolate
 
@@ -50,4 +48,8 @@ Basically: link out → nothing on the robot can move or power up.
 
 The removable link is separate from a **weapon immobilization** device (a
 physical pin or clamp that stops the weapon spinning while you handle the robot
-in the pit). You need both — see Tech inspection checklist.
+in the pit). Most rulesets require both.[^sparc]
+
+## References
+
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) (Standardized Practices for the Advancement of Robot Combat), v1.4, 2023 — §"Power System" and §"Safety". Section numbers vary by revision; check your event's adopted version.

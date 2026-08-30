@@ -24,9 +24,9 @@ over, pinning them, or throwing them out of position — with little self-damage
 | **CO₂ / HPA pneumatic** | Compressed gas | Very fast, powerful full flips | Pressure-system rules, weight of bottle/reg/valve, leaks |
 
 Pneumatics in beetleweight are uncommon due to the mass of a compliant gas
-system and the extra pressure-system rules —
-regulated pressure limits, burst testing, secure mounting. Most insect flippers
-are electric or spring-over-motor.
+system and the extra pressure-system rules — regulated pressure limits, burst
+testing, secure mounting.[^sparc] Most insect flippers are electric or
+spring-over-motor.
 
 ## Design points
 
@@ -40,3 +40,7 @@ are electric or spring-over-motor.
   a short stroke — energy and power both matter. A lifter only needs force.
 - **Self-use:** a flipper arm or lifter doubling as a
   srimech saves weight.
+
+## References
+
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/), v1.4, 2023 — pneumatic and hydraulic (stored-energy) system rules: allowed working fluids, maximum pressures, and required safety features.

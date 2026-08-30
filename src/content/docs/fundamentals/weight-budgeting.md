@@ -17,6 +17,8 @@ all want more of it.
 | Antweight (US) | 1 lb / 454 g | ~430 g |
 | Beetleweight | 3 lb / 1361 g | ~1300 g |
 
+Class limits and walker/exclusion bonuses are defined by your event's ruleset.[^sparc]
+
 Allow **3–5%** for hardware you never model precisely: fasteners, wire,
 heat-shrink, adhesive, zip ties, connectors.
 
@@ -58,3 +60,7 @@ fights before the thin armor is tested.
 - **Over-thick printed walls.** Going from 3 to 4 perimeters on every part adds
   up. Thicken locally at load points instead.
 - **Connectors.** An unused XT60 pair is ~5 g. Solder joints where you can.
+
+## References
+
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/), v1.4, 2023 — weight classes and weight bonuses. [NHRL](https://wiki.nhrl.io/) publishes the class limits used at its events.

@@ -19,7 +19,7 @@ KE = ½ · I · ω²
 - **ω** — angular velocity (rad/s) = `2π · rpm / 60`.
 
 Because energy scales with **ω²**, rpm matters more than mass. A light bar spun
-fast can out-hit a heavy drum spun slow.
+fast can out-hit a heavy drum spun slow.[^riobotz]
 
 ## Moment of inertia (common weapon shapes)
 
@@ -31,7 +31,7 @@ fast can out-hit a heavy drum spun slow.
 | Two masses m at radius r (asymmetric bar) | `2·m·r²` |
 
 Mass concentrated at the tips (bar, ring shell) stores more energy per gram than
-a solid disc, at the cost of a less rigid structure.
+a solid disc, at the cost of a less rigid structure.[^riobotz]
 
 ## Tip speed
 
@@ -71,7 +71,7 @@ angular momentum **L = I·ω** produces a torque at right angles:
 
 Effects on a **horizontal** spinner (vertical weapon axis): turning the robot
 makes it tip / lift a corner. Effects on a **vertical** spinner (horizontal
-weapon axis): turning makes the nose pitch up or down. Consequences:
+weapon axis): turning makes the nose pitch up or down.[^riobotz] Consequences:
 
 - Fast, high-`I` weapons make the robot "walk" or hop when driving.
 - Mitigations: lower `I`, lower rpm, 4WD for a wider stability base, a heavier
@@ -83,3 +83,7 @@ weapon axis): turning makes the nose pitch up or down. Consequences:
 Delivered energy goes into denting armor, breaking fasteners, and — usefully —
 throwing the opponent (and often yourself). Newton's third law: a big hit
 accelerates *both* robots. Structure both to survive your own weapon's reaction.
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — spinner kinetic energy, moment-of-inertia formulas, spin-up, and gyroscopic effects.

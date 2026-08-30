@@ -24,7 +24,7 @@ arrangement for beetleweight and up.
 ## Shaft sizing
 
 - Size for **bending and shock**, not torque — torque is modest, impact
-  bending is severe.
+  bending is severe.[^riobotz]
 - Beetleweight weapon shafts are commonly **6–10 mm** hardened or alloy steel
   (e.g. 4140/4340), not aluminum.
 - Avoid stress risers at the impact zone: no sharp shoulders, threads, or
@@ -50,3 +50,7 @@ arrangement for beetleweight and up.
   overhangs multiply bending stress.
 - Isolate delicate electronics from the bearing-block structure with
   shock mounting where practical.
+
+## References
+
+[^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — weapon shaft and bearing design for impact loads, live- vs dead-shaft trade-offs, and stress-riser avoidance.

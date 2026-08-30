@@ -12,7 +12,7 @@ damaged or abused cell can vent flammable gas and ignite.
 
 - Use a **balance charger** and always plug in the **balance lead**.
 - Charge at **1C** unless the manufacturer explicitly allows more. A 450 mAh
-  pack → 0.45 A.
+  pack → 0.45 A.[^batteryuniversity]
 - Charge in a **fireproof container** (LiPo bag, ammo can, ceramic pot) on a
   non-flammable surface, never unattended, never overnight.
 - Stop if a pack gets hot, puffs, or a cell reads oddly during balancing.
@@ -21,7 +21,7 @@ damaged or abused cell can vent flammable gas and ignite.
 ## Storage
 
 - Store at **3.8–3.85 V/cell** ("storage voltage"). Most chargers have a storage
-  mode.
+  mode.[^batteryuniversity]
 - Don't leave packs full for more than a day or two.
 - Don't let a pack sit below **3.3 V/cell**; below ~3.0 V under no load it's
   likely damaged.
@@ -46,4 +46,9 @@ damaged or abused cell can vent flammable gas and ignite.
 - Have a way to move a venting pack outside; a metal container with a lid helps.
 
 Events require sane battery practice and will fail robots with exposed or
-damaged packs at tech inspection.
+damaged packs at tech inspection.[^sparc]
+
+## References
+
+[^batteryuniversity]: Battery University (Cadex), [BU-808: How to Prolong Lithium-Based Batteries](https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries) — charge rate, full-charge and storage voltages, and failure modes.
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/), v1.4, 2023 — battery mounting, protection, and inspection requirements.

@@ -40,7 +40,7 @@ On **loss of signal**, every output must go to a safe state:
 - **Drive → neutral / stop.**
 - **Weapon → stop** (zero throttle), not "hold last".
 - Configure failsafe **in the receiver** (and confirm ESC behavior on lost
-  signal too). "Hold last command" is unsafe for a weapon.
+  signal too). "Hold last command" is unsafe for a weapon.[^sparc]
 
 ### Verifying failsafe
 
@@ -50,4 +50,8 @@ On **loss of signal**, every output must go to a safe state:
 4. Drive must stop and weapon must stop within a fraction of a second.
 5. Repeat after any config change.
 
-This exact test is performed at tech inspection.
+This exact test is performed at tech inspection.[^sparc]
+
+## References
+
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/), v1.4, 2023 — radio failsafe requirements and the tech-inspection failsafe test. [NHRL](https://wiki.nhrl.io/) documents the same test for its events.

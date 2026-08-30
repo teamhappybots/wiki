@@ -26,7 +26,7 @@ Trade-offs for a weapon outrunner:
 
 - Current rating **at or above the motor's peak spin-up current**, which can be
   2–4× the continuous rating for the first second.
-- BLHeli_S, BLHeli_32, or AM32 firmware ([ESC firmware](/power/esc-firmware/)).
+- BLHeli_S, BLHeli_32, or AM32 firmware ([ESC firmware](/power/esc-firmware/)).[^am32][^blheli]
 - Cell count (voltage) rating matched to the [battery](/power/lipo-batteries/).
 - Weapon ESC does **not** need reverse; it needs a controlled ramp.
 
@@ -52,3 +52,8 @@ ESC that cuts out or desyncs.
   weapon load.
 - **Signal-loss behavior:** motor must **stop** on lost signal — verify on the
   bench with the rotor in a [test box](/power/bench-testing/).
+
+## References
+
+[^am32]: [AM32 ESC firmware](https://github.com/am32-firmware/AM32) and the [AM32 wiki](https://github.com/am32-firmware/am32-wiki) — settings reference for timing, startup power, and low-RPM protection.
+[^blheli]: [BLHeli / BLHeli_S firmware](https://github.com/bitdump/BLHeli) (see the manual PDFs in the repo); browser config via [ESC-Configurator](https://esc-configurator.com/).
