@@ -15,6 +15,7 @@ export default defineConfig({
 		starlight({
 			title: 'Combat Robots Wiki',
 			description: DESCRIPTION,
+			routeMiddleware: './src/routeData.ts',
 			plugins: [
 				starlightLlmsTxt({
 					projectName: 'Combat Robots Wiki',

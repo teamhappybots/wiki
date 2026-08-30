@@ -1,0 +1,48 @@
+# Combat Robots Wiki — https://wiki.combatrobots.org
+
+# Search and AI crawlers are welcome. This is a public reference wiki
+# and the content is intended to be indexed and cited.
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI/LLM crawlers used for answer engines and training.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://wiki.combatrobots.org/sitemap-index.xml
