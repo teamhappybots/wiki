@@ -13,7 +13,8 @@ outside, without tools, quickly. This is a hard rule at every event.[^sparc]
 A plug that completes the main power circuit and is pulled out to disconnect.
 
 - Carries **full main-bus current** — size it like the
-  [battery connector](/power/connectors/) (XT60/XT90 or a purpose-made link).
+  [battery connector](/power/connectors/) (an XT30 or XT60 doubling as the link,
+  or a purpose-made link).
 - Mounted so it's **reachable from outside** the robot, clearly, in both
   orientations if possible.
 - Retained in a socket that holds it against vibration but releases with a

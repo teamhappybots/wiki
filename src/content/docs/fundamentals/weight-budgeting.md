@@ -59,7 +59,9 @@ fights before the thin armor is tested.
   ([Wiring &amp; current](/power/wiring/)), keep runs short.
 - **Over-thick printed walls.** Going from 3 to 4 perimeters on every part adds
   up. Thicken locally at load points instead.
-- **Connectors.** An unused XT60 pair is ~5 g. Solder joints where you can.
+- **Connectors.** Every connector pair is 2–6 g of pure overhead. Use
+  [XT30](/power/connectors/) for the main battery lead in insect classes, not
+  XT60, and solder the joints you don't need to separate.
 
 ## References
 

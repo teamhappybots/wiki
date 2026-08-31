@@ -1,6 +1,6 @@
 ---
 title: Connectors
-description: XT30/XT60, bullet connectors, servo connectors, and where to solder instead.
+description: XT30 for insect classes, bullet connectors, servo connectors, and where to solder instead.
 sidebar:
   order: 4
 ---
@@ -10,17 +10,23 @@ genuinely need to disconnect; solder the rest.
 
 ## Power connectors
 
-| Connector | Current | Use |
-| --- | --- | --- |
-| **XT30** | ~15–30 A | Antweight main power, beetleweight drive branches |
-| **XT60** | ~30–60 A | Beetleweight main battery connection |
-| **XT90 / AS150** | 60–90+ A | Heavy classes |
-| **4 mm bullet** | ~40–60 A | Motor-to-ESC on brushless (phase leads) |
-| **3.5 mm bullet** | ~25–40 A | Small brushless phase leads |
+| Connector | Pair mass | Current | Use in insect classes |
+| --- | --- | --- | --- |
+| **XT30** | ~2–3 g | ~15 A cont., 30–40 A burst | **The default main battery connector** for antweight and beetleweight |
+| **XT60** | ~5–6 g | ~30 A cont., 60 A burst | Only if a high-current spinner build genuinely sustains >15 A average, or you want the margin at a small weight cost |
+| **XT90 / AS150** | ~12 g+ | 60–90+ A | Hobbyweight and up — overkill and wasted grams in insect classes |
+| **4 mm bullet** | ~2 g | ~40–60 A | Motor-to-ESC on brushless (phase leads) |
+| **3.5 mm bullet** | ~1.5 g | ~25–40 A | Small brushless phase leads |
 
-Match the connector to the **battery lead** rating and the
+**Use XT30 for the main battery connection** in a beetleweight. Weapon spin-up
+current is brief, and the XT30 handles those bursts fine; a full XT60 is 3&nbsp;g
+of margin you rarely need and is uncommon in current insect builds. Move up only
+if you have measured a sustained current that actually warrants it.
+
+Match the connector to the **battery lead** gauge and the
 [removable-link](/power/switches-links/) current. A loose or undersized power
-connector overheats, sags voltage, and can arc.
+connector overheats, sags voltage, and can arc — but so does a needlessly heavy
+one bolted to thin wire.
 
 ## Signal connectors
 
