@@ -15,12 +15,18 @@ all want more of it.
 | --- | --- | --- |
 | Fairyweight | 150 g | ~140 g |
 | Antweight (US) | 1 lb / 454 g | ~430 g |
-| Beetleweight | 3 lb / 1361 g | ~1300 g |
+| Beetleweight (US) | 3 lb / 1361 g | ~1300 g |
+| Beetleweight (UK) | 1500 g | ~1440 g |
 
-Class limits and walker/exclusion bonuses are defined by your event's ruleset.[^sparc]
+Beetleweights can claim extra allowance for non-wheeled locomotion — roughly
+3.75 lb (shuffler), 4.5 lb (non-traditional), or 6 lb (true walker) under
+SPARC/NHRL, plus NHRL's multibot split. See
+[Drivetrain layouts](/drivetrain/layouts/#walkers-and-shufflers), and confirm the
+exact clause with your event.[^sparc][^b4d]
 
 Allow **3–5%** for hardware you never model precisely: fasteners, wire,
-heat-shrink, adhesive, zip ties, connectors.
+heat-shrink, adhesive, zip ties, connectors. A useful CAD-stage number is a flat
+**~50 g** allowance for screws and wiring on a beetle.[^b4d]
 
 ## Typical splits by archetype (beetleweight)
 
@@ -53,16 +59,29 @@ fights before the thin armor is tested.
 ## Where the grams hide
 
 - **Fasteners.** A beetleweight can carry 40–80 g of screws. Use the shortest
-  screw that gives full thread engagement; drop from
-  steel to aluminum or titanium only where the load allows.
-- **Wire.** 12–14 AWG silicone wire is heavy. Size it to current
-  ([Wiring &amp; current](/power/wiring/)), keep runs short.
+  screw that gives full thread engagement; drop from steel to aluminium or
+  titanium only where the load allows.
+- **Wire.** Copper is dense. Size it to current
+  ([Wiring &amp; current](/power/wiring/)) — 16 AWG main/weapon, 20–22 AWG drive
+  on a beetle — and keep runs short.
 - **Over-thick printed walls.** Going from 3 to 4 perimeters on every part adds
-  up. Thicken locally at load points instead.
+  up. Thicken locally at load points instead, and keep infill low (5–10%).
 - **Connectors.** Every connector pair is 2–6 g of pure overhead. Use
   [XT30](/power/connectors/) for the main battery lead in insect classes, not
   XT60, and solder the joints you don't need to separate.
 
+## If you come in overweight
+
+In rough order of least to most disruptive:[^b4d]
+
+1. Re-slice 3D-printed parts lighter — cheap to reprint.
+2. Trim or drop side and back armour (keep the front pointed at the opponent).
+3. Shorten wiring.
+4. Remove non-critical hardware.
+5. Only then start drilling or pocketing solid parts — heaviest parts first,
+   material removed slowly.
+
 ## References
 
 [^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/), v1.4, 2023 — weight classes and weight bonuses. [NHRL](https://wiki.nhrl.io/) publishes the class limits used at its events.
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies* (Fall 2025 revision) — builder-maintained beginner guide distributed via the NHRL Discord. Sections: What is a Beetleweight?; Weight Bonuses; Appendix VII (Weight Management).

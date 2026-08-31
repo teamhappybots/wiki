@@ -12,16 +12,17 @@ genuinely need to disconnect; solder the rest.
 
 | Connector | Pair mass | Current | Use in insect classes |
 | --- | --- | --- | --- |
-| **XT30** | ~2–3 g | ~15 A cont., 30–40 A burst | **The default main battery connector** for antweight and beetleweight |
-| **XT60** | ~5–6 g | ~30 A cont., 60 A burst | Only if a high-current spinner build genuinely sustains >15 A average, or you want the margin at a small weight cost |
-| **XT90 / AS150** | ~12 g+ | 60–90+ A | Hobbyweight and up — overkill and wasted grams in insect classes |
-| **4 mm bullet** | ~2 g | ~40–60 A | Motor-to-ESC on brushless (phase leads) |
-| **3.5 mm bullet** | ~1.5 g | ~25–40 A | Small brushless phase leads |
+| **XT30** | ~2–3 g | ~15 A cont., 30–40 A burst | **The default main battery / removable-link connector** — good for ~95% of beetleweights |
+| **XT60** | ~5–6 g | ~30 A cont., 60 A burst | Only if you've measured a sustained current that warrants it; uncommon on current beetles |
+| **XT90 / AS150** | ~12 g+ | 60–90+ A | Hobbyweight and up — wasted grams in insect classes |
+| **GNB A30 / BT2.0 / red JST** | <1 g | ~10–20 A | Drive-motor leads — small and light |
+| **MR30 / MT30** | ~1.5 g | ~15–30 A | Compact 3-pin option for brushless phase leads |
+| **3 / 3.5 mm bullet** | ~1.5–2 g | ~25–40 A | Brushless phase leads (3.5 mm ships on most motors but is overkill) |
 
 **Use XT30 for the main battery connection** in a beetleweight. Weapon spin-up
-current is brief, and the XT30 handles those bursts fine; a full XT60 is 3&nbsp;g
-of margin you rarely need and is uncommon in current insect builds. Move up only
-if you have measured a sustained current that actually warrants it.
+current is brief and the XT30 handles those bursts fine; a full XT60 is a few
+grams of margin you rarely need. For drive leads, drop to a **GNB A30, BT2.0, or
+red JST**. Never run a bigger connector than the leads on your battery.[^b4d]
 
 Match the connector to the **battery lead** gauge and the
 [removable-link](/power/switches-links/) current. A loose or undersized power
@@ -54,4 +55,9 @@ Keep connectors at:
 
 Solder connectors properly — tin both sides, full fillet, no cold joints — and
 heat-shrink. A high-resistance power connector is a common cause of "weapon
-won't spin up" and "ESC keeps cutting out."
+won't spin up" and "ESC keeps cutting out." Learn to solder well; use leaded
+solder (easier, and safe if you wash your hands) and a decent iron.[^b4d]
+
+## References
+
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies* (Fall 2025 revision) — builder-maintained beginner guide distributed via the NHRL Discord. Section: Electronics & Wiring → Wires, Connectors & Soldering.

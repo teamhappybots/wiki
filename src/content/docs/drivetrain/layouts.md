@@ -1,9 +1,12 @@
 ---
 title: Drivetrain layouts
-description: 2WD, 4WD, drive-by-weapon, shuffle drives, and invertible driving.
+description: Skid steer, 2WD vs 4WD, direct/indirect/tangent drive, melty, walkers, and invertible driving.
 sidebar:
   order: 3
 ---
+
+**Drive wins fights** — it's the only thing keeping you off a countout, and it
+delivers the weapon. Build it first and build it robust.[^b4d]
 
 ## Skid steer (tank drive)
 
@@ -14,26 +17,44 @@ driving the sides at different speeds. Simple, robust, mixed in the
 - **2WD, 2 wheels total:** both wheels driven, full weight on traction, needs a
   skid or the weapon housing as a third contact point.
 - **2WD, 4 wheels:** front or rear pair driven, others are casters/idlers.
-  Simplest 4-wheel stance; traction limited to the driven axle's weight share.
-- **4WD:** all four driven, chained/belted per side or four independent motors.
-  Best traction and redundancy; most competitive beetles use it.
+- **4WD:** all four driven. Better traction, stability, and redundancy (keeps
+  moving after losing a wheel or motor). **Most competitive beetles are 4WD.**[^b4d]
 
-## Drive-by-weapon
+## How the motor connects to the wheel
 
-The robot has no separate drive on one axis and instead uses the weapon's
-ground contact or reaction. Rare and situational.
+| Setup | How | Notes |
+| --- | --- | --- |
+| **Direct drive** | Wheel on a combat gearmotor's output shaft | Default. Simple, compact, robust with a shock-absorbing wheel and a combat-rated gearmotor. |
+| **Indirect drive** | Belt or gear from the gearmotor to a wheel on a **dead axle** | Isolates the motor from wheel hits; frees up packaging. 4mm S3M belts and the Repeat drive axle are common. |
+| **Direct 4WD** | One wheel on the motor, a belt/gear to a second wheel per side | Keep the two wheels rigid to each other so the belt stays engaged. |
+| **Indirect 4WD** | Motor drives a double-wide pulley feeding front and rear wheels | Full motor isolation; one wheel loss doesn't kill the side (e.g. Repeat Peter Bar). |
+| **Multi-stage reduction** | Gear/belt train off a plain drone motor instead of a gearmotor | Cheaper/lighter motor, more design freedom; more complex and fragile. |
+| **Tangent / friction drive** | Drone-motor shaft pressed directly against the wheel | Most compact and powerful; needs constant shaft-to-wheel pressure, hard wheels, and wheel protection. Fast and twitchy. |
+
+Combat gearmotors have improved enough that plain **direct drive is fine for a
+first build**; reach for belts when you want packaging freedom or shock
+isolation.[^b4d]
 
 ## Melty brain (full-body spinner)
 
 The entire robot spins; translation comes from pulsing drive power once per
-revolution, timed by an accelerometer and firmware. Powerful but requires
-melty-capable firmware, careful CG, and driver skill. Not a first build.
+revolution, timed by an onboard accelerometer/gyro and firmware. Chaotic, fun,
+and a real coding project — not a first build.[^b4d]
 
-## Shuffle / cam "walker" drives
+## Walkers and shufflers
 
-Legged-looking drives that are mechanically wheeled (cams lifting feet) to
-qualify for walker weight bonuses under some rulesets. Complex; check your
-event's walker clause before committing.[^sparc]
+Legged or leg-like drives, used partly to claim a weight bonus. The numbers vary
+by event but under SPARC/NHRL they run roughly:[^sparc][^b4d]
+
+| Locomotion | Beetleweight limit |
+| --- | --- |
+| Wheels / normal | 3 lb |
+| **Shuffler** (feet on continuously rotating cams) | 3.75 lb |
+| **Non-traditional locomotion** (weapon-driven, etc., no rolling contact) | 4.5 lb |
+| **True walker** (≥2 independent DOF per leg, no rolling contact) | 6 lb |
+| **Multibot** (NHRL) | 4 lb ÷ number of segments, up to 4 |
+
+Confirm the exact clause with the event before designing around it.
 
 ## Invertible driving
 
@@ -46,4 +67,5 @@ Insect robots get flipped constantly. Design to drive **upside down**:
 
 ## References
 
-[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) and [Tournament Rules](https://sparc.tools/), v1.4, 2023 — walker weight bonus and its qualifying criteria. Many events modify or drop this clause; check the ruleset you are entering.
+[^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) and [Tournament Rules](https://sparc.tools/), v1.4, 2023 — walker/shuffler weight bonuses and their qualifying criteria. Many events modify or drop these; check the ruleset you are entering.
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies* (Fall 2025 revision) — builder-maintained beginner guide distributed via the NHRL Discord. Sections: Drive Systems; General Rules → Weight Bonuses.

@@ -5,8 +5,13 @@ sidebar:
   order: 1
 ---
 
-This is a technical reference for building combat robots. It assumes you want to
-understand *why* a design choice is right, not just copy a parts list.
+This is a technical reference for building combat robots, focused on the
+**3&nbsp;lb beetleweight** class. It assumes you want to understand *why* a
+design choice is right, not just copy a parts list.
+
+Two rules of thumb the whole sport agrees on: **drive wins fights** — build the
+drivetrain first and build it robust — and **get under the opponent**, because
+whoever is underneath controls the fight and disables the other's weapon.[^b4d]
 
 ## The five systems
 
@@ -33,8 +38,8 @@ A workable sequence for a new design:
    enough torque not to stall when pushed. See [Power, torque &amp; gearing](/fundamentals/power-torque-gearing/).
 4. **Weapon package.** Energy target, then motor and moment of inertia that
    reach it within an acceptable [spin-up time](/fundamentals/weapon-energy/).
-5. **Power system.** Battery that supplies peak bus current and lasts a
-   full match with margin. See [LiPo batteries](/power/lipo-batteries/).
+5. **Power system.** Battery that supplies peak bus current and lasts a full
+   **3-minute** match with margin. See [LiPo & LiHV batteries](/power/lipo-batteries/).
 6. **Structure.** Package everything, then design the frame and armor around
    the load paths from weapon impacts.
 7. **Compliance pass.** Check the design against the
@@ -49,3 +54,4 @@ mass in grams/kilograms, tip speed in m/s.
 ## References
 
 [^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) (Standardized Practices for the Advancement of Robot Combat), v1.4, 2023 — the widely adopted open ruleset in North America. Your event adopts a specific revision; follow that one.
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies: The Ultimate Guide to Building your Own 3lb Death Machine* (Fall 2025 revision) — a builder-maintained beginner guide, originally for UTRA Combat and widely distributed through the NHRL Discord. Cited throughout this wiki for current North-American beetleweight practice.

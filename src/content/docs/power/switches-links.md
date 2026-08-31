@@ -29,6 +29,22 @@ most rulesets as long as they break the **full current** and their state is
 obvious. A switch that only signals a BEC or ESC enable line is **not**
 sufficient — the main power must be broken.[^sparc]
 
+Common beetleweight options:[^b4d]
+
+- **FingerTech Mini Switch** — the long-time default: a screw contact, compact,
+  vibration-resistant. On high-voltage systems with big capacitors it can arc on
+  turn-on and slowly erode the contacts.
+- **Lynx Switch** — adds a precharge resistor so the capacitors charge gently
+  before the contact closes; solves the arcing.
+- **Puppy Power Switch** — bulkier, higher current, spring-loaded **fail-ON** so
+  a hard hit can't switch the robot off mid-match.
+- Several combat **power-distribution boards** integrate a screw switch.
+
+Wire the switch on the **negative** side. In a screw switch the tool becomes
+part of the circuit; on the positive side it can go live and short to a
+conductive (e.g. carbon-fibre) chassis. Never connect both battery leads to the
+switch.[^b4d]
+
 ## What it must isolate
 
 - Drive motors,
@@ -47,10 +63,24 @@ Basically: link out → nothing on the robot can move or power up.
 
 ## Master power vs weapon lock
 
-The removable link is separate from a **weapon immobilization** device (a
-physical pin or clamp that stops the weapon spinning while you handle the robot
-in the pit). Most rulesets require both.[^sparc]
+The removable link is separate from a **weapon lock** — a physical device that
+stops the weapon moving while you handle the robot. Most rulesets require both.
+A good weapon lock is one-handed to fit and remove, obviously visible, and can't
+fall out on its own or when the weapon pushes against it.[^sparc][^b4d]
+
+Common spinner locks:[^b4d]
+
+- A **C-clamp, spring clamp, or locking pliers** on the rotor — quick, but clamp
+  it *through a hole in the weapon* so it can't shake off.
+- A **pin through the chassis** into the weapon's path — a screwdriver works; a
+  **ball-lock pin** is the secure, easy version.
+- A **3D-printed block** shaped to jam between chassis and rotor.
+
+Lifters and other high-torque arms need a pin that locks the whole mechanism,
+not just a stop against rotation. In the pits, cover forks and teeth with foam
+cubes or printed guards.
 
 ## References
 
 [^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/) (Standardized Practices for the Advancement of Robot Combat), v1.4, 2023 — §"Power System" and §"Safety". Section numbers vary by revision; check your event's adopted version.
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies* (Fall 2025 revision) — builder-maintained beginner guide distributed via the NHRL Discord. Sections: Electronics & Wiring → Switches; Testing & Safety → Weapon Locks.

@@ -8,19 +8,23 @@ sidebar:
 ## Gauge selection
 
 Size wire to the **current it carries** and the **length of the run**. Combat
-wiring is short, so ampacity (heating) usually governs, not voltage drop.
+wiring is short, so ampacity (heating) usually governs, not voltage drop. A good
+rule of thumb: **never run heavier wire (or bigger connectors) than the leads on
+your battery.**[^b4d]
 
 | AWG | Rough continuous current (chassis wiring, silicone) | Typical use (beetleweight) |
 | --- | --- | --- |
-| 18 | ~15 A | Receiver power, small servo leads |
-| 16 | ~20 A | Light drive motor leads |
-| 14 | ~30 A | Drive motor leads, secondary bus |
-| 12 | ~45 A | Main battery lead, weapon ESC feed |
-| 10 | ~65 A | High-power weapon feed, heavy classes |
+| 24 | ~5 A | Signal wires, LEDs |
+| 20–22 | ~8–10 A | Drive motor leads |
+| 18 | ~15 A | Main power and weapon feed on small-weapon builds; BEC / receiver |
+| 16 | ~20 A | **Main battery lead and weapon ESC feed on most beetleweights** |
+| 14 | ~30 A | Heavy weapon feed only if the battery leads are 14 AWG |
 
 These are guidance figures — derate for bundling, high ambient temperature, and
 long runs.[^powerwerx] Weapon spin-up current is brief, so the weapon feed can be
-sized closer to sustained current than to absolute peak, within reason.
+sized closer to sustained current than to absolute peak. Beetleweights have moved
+to lighter wire than older guides assume: 16 AWG main/weapon and 20–22 AWG drive
+is standard now, and 12–14 AWG is hobbyweight territory.[^b4d]
 
 ## Use silicone-insulated, fine-strand wire
 
@@ -48,3 +52,4 @@ heat and abrasion far better than PVC. It's the combat standard.
 ## References
 
 [^powerwerx]: [Powerwerx wire gauge / AWG reference table](https://powerwerx.com/help/wire-gauge-awg-reference-table) and [recommended wire-gauge calculator](https://powerwerx.com/wire-gauge-selection-chart-calculator). Chassis-wiring ampacity assumes short runs in open air; silicone insulation's higher temperature rating (150&nbsp;°C) allows more current per gauge than PVC.
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies: The Ultimate Guide to Building your Own 3lb Death Machine* (Fall 2025 revision) — a builder-maintained beginner guide widely distributed through the NHRL Discord. Section: Electronics & Wiring.

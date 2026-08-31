@@ -57,13 +57,13 @@ export default defineConfig({
 						{ label: 'Weapon motors & ESCs', slug: 'weapons/motors-escs' },
 						{ label: 'Shafts, bearings & mounting', slug: 'weapons/shafts-bearings' },
 						{ label: 'Flippers & lifters', slug: 'weapons/flippers-lifters' },
-						{ label: 'Control bots & wedges', slug: 'weapons/control-wedges' },
+						{ label: 'Control bots & ground game', slug: 'weapons/control-wedges' },
 					],
 				},
 				{
 					label: 'Power & Electronics',
 					items: [
-						{ label: 'LiPo batteries', slug: 'power/lipo-batteries' },
+						{ label: 'LiPo & LiHV batteries', slug: 'power/lipo-batteries' },
 						{ label: 'Battery safety & charging', slug: 'power/battery-safety' },
 						{ label: 'Wiring & current capacity', slug: 'power/wiring' },
 						{ label: 'Connectors', slug: 'power/connectors' },

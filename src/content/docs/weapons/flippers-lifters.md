@@ -11,9 +11,15 @@ over, pinning them, or throwing them out of position — with little self-damage
 ## Lifter vs flipper
 
 - **Lifter:** a slow, powerful arm (often a geared motor + linkage) that raises
-  the opponent to unbalance, carry, or pin them. High control, low drama.
+  the opponent to unbalance, carry, or pin them. High control, low drama. A
+  lifter with a second arm that clamps and lifts the opponent clear of the floor
+  is a **grappler / suplexer**.
 - **Flipper:** a fast actuator that launches the opponent up and over. Needs a
   burst of energy in a few tens of milliseconds.
+
+Both live or die on ground game — a low front lip and good
+[forks](/weapons/control-wedges/#forks--the-modern-standard) are half of the
+mechanism's effectiveness.[^b4d]
 
 ## Actuation methods (insect classes)
 
@@ -40,7 +46,11 @@ spring-over-motor.
   a short stroke — energy and power both matter. A lifter only needs force.
 - **Self-use:** a flipper arm or lifter doubling as a
   srimech saves weight.
+- **Power the servo properly:** a beetleweight lifter servo needs its own
+  higher-current BEC (often 7.4&nbsp;V) — signal to the receiver, power and
+  ground to the BEC. Only tiny servos run straight off the receiver.[^b4d]
 
 ## References
 
 [^sparc]: [*SPARC Robot Construction Specifications*](https://sparc.tools/), v1.4, 2023 — pneumatic and hydraulic (stored-energy) system rules: allowed working fluids, maximum pressures, and required safety features.
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies* (Fall 2025 revision) — builder-maintained beginner guide distributed via the NHRL Discord. Sections: Robot Archetypes → Lifters; Electronics & Wiring → Receivers and BECs.

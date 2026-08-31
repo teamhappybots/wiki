@@ -39,10 +39,15 @@ a solid disc, at the cost of a less rigid structure.[^riobotz]
 v_tip = ω · R
 ```
 
-Beetleweight kinetic weapons typically run **60–120 m/s** tip speed. Higher tip
-speed increases per-hit damage and the chance of biting through armor, but
-raises stress on the [weapon shaft and bearings](/weapons/shafts-bearings/) and
-worsens gyro effects.
+A common design target is a tip speed around **250 mph (~110 m/s)**, and
+competitive beetleweights rarely design past **300 mph (~135 m/s)**. Higher tip
+speed raises per-hit energy but also stress on the
+[weapon shaft and bearings](/weapons/shafts-bearings/), gyro effects, and — by
+reducing [bite](/weapons/geometry-bite/) — the *fraction* of that energy that
+actually transfers. Many drivers deliberately run below full speed for most of a
+match because consistent bite beats raw power.[^b4d] Check tip speed with the
+[Bristol Bot Builders](https://bristolbotbuilders.com/tools/tipspeed/) or
+[Ember](https://ember.level5robotics.com/weapon) calculator.
 
 ## Spin-up time
 
@@ -87,3 +92,4 @@ accelerates *both* robots. Structure both to survive your own weapon's reaction.
 ## References
 
 [^riobotz]: Meggiolaro, M. A. [*RioBotz Combat Robot Tutorial*](https://www.riobotz.com/riobotz_combot_tutorial.pdf), v2.0, PUC-Rio, 2009 (CC BY-NC-ND) — spinner kinetic energy, moment-of-inertia formulas, spin-up, and gyroscopic effects.
+[^b4d]: Ping, L., with L. Skotiniotis, I. Talbert & D. Tran. *Beetleweights for Dummies* (Fall 2025 revision) — builder-maintained beginner guide distributed via the NHRL Discord. Section: Spinning Weapon Design → Maximizing Bite.
